@@ -1,2 +1,4 @@
-# war
-War card game - CodinGame Puzzle - JS
+# War : card game - CodinGame Puzzle
+
+
+  ![Screen capture](/capscreen.png)

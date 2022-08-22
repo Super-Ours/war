@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingGame - JS Puzzle  - WAR !</title>
+    <link   href='http://fonts.googleapis.com/css?family=Roboto' 
+            rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+
+        <div class="header">
+            <h1>Super<span>Ours</span></h1>
+            <div class="pagelabel">
+                <span >CLASSIC PUZZLE : <a href="https://www.codingame.com/training/medium/winamax-battle" target="_blank">" WAR "</a></span>
+                <p>Test cases : <span id="loopLabel"></span></p>
+            </div>
+            
+        </div>
+        <div class="gameContent">
+            <div class="player" id="player1">
+                <h3>Player 1</h3>
+                <div class="buffer">
+                    
+                </div>
+            </div>
+            <div class="gameArea" id="area"></div>
+            <div class="player" id="player2">
+                <h3>Player 2</h3>
+                <div class="buffer"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+   
+            <button class="btnPlay" value="0">Random<br> Long game !!</button>
+            <button class="btnPlay"  value="1" >3 cards <br>Player 1 win <br>3 loops</button>
+            <button class="btnPlay"  value="2" >26 cards <br>Player 2 win <br>26 loops</button>
+            <button class="btnPlay" value="3"">26 cards <br>Medium lengh <br>Player 2 win <br>56 loops</button>
+            <button class="btnPlay" value="4">5 cards <br>"Battle" - Player 2 win <br>1 loop</button>
+            <button class="btnPlay"   value="5">26 cards <br>One Game One Battle<br> - Player 2 win <br>52 loops</button>
+            <button class="btnPlay"  value="6" >9 cards <br>2 chained Battles<br> - Player 2 win <br>1 loop</button>
+            <button class="btnPlay"  value="7" >26 s <br>Long game<br> - Player 2 win <br>1262 loops</button>
+            <button class="btnPlay"  value="8" >26 cards <br>PAT</button>
+            <button class="btnPlay"  value="9" >26 cards <br>Another PAT</button>
+       
+    </div>
+
+
+    <script src="battle.js"></script>
+</body>
+</html>
